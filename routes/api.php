@@ -20,3 +20,4 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 
 
 Route::get('/calls', [App\Http\Controllers\CallController::class, 'store']);
+Route::get('/test', [App\Http\Controllers\TestController::class, 'bekatest']);
