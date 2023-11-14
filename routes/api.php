@@ -19,3 +19,4 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 
 Route::apiResource('categories', App\Http\Controllers\CategoryController::class);
+Route::apiResource('tasks', App\Http\Controllers\TaskController::class);
